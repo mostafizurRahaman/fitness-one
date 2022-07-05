@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Oswald', sans-serif;
+   letter-spacing: 0.3px;
+}
+#header{
+    background: #000;
+}
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    background: #000;
+    color: #fff;
+    padding: 15px 50px;
+    align-items: center;
+}
+.menu_bar{
+   
+
+}
+.logo_sec{
+    
+}
+.logo_sec h1{
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.menu_bar ul{
+padding:0  ;
+margin: 0;
+display: flex;
+list-style-type: none;
+}
+.menu_bar ul  li a{
+    margin-left: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+}
+.menu_bar ul  li a:hover{
+   color: orange;
+   cursor: url(img/haha-imoji.png) ,pointer;
+}
+.bottom_header{
+    display: flex;
+    align-items: center;
+    padding:40px;  
+
+}
+.box{
+width:  40%; 
+margin:0 5%;
+}
+h1{
+font-size: 45px;
+color:#fff;
+text-transform: capitalize;
+}
+p{
+    color: rgb(196 205 205);
+    font-size: 24px;
+    text-align: justify;
+
+}
+.header_p{
+color: #f00;
+}
+.hero_text{
+    color: #fa8100e1;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+.hero_btn,.btn{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px 30px;
+    background: #fa8100e1;
+    border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+    margin-top: 30px;
+    transition: all ease 0.5s;
+    -webkit-transition:0.5s all ease ;
+    -moz-transition: all ease 0.5s;
+    -ms-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+}
+.hero_btn:hover,.btn:hover{
+       letter-spacing: 2px;    
+}
+.box img{
+width: 100%;
+margin: 0 auto;
+display: block;
+
+}
