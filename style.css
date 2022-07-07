@@ -70,7 +70,7 @@ text-transform: capitalize;
 }
 p{
     color: rgb(196 205 205);
-    font-size: 24px;
+    font-size: 20px;
     text-align: justify;
 
 }
@@ -87,7 +87,7 @@ color: #f00;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 16px;
     display: inline-block;
     padding: 10px 30px;
     background: #fa8100e1;
@@ -111,4 +111,65 @@ width: 100%;
 margin: 0 auto;
 display: block;
 
+}
+.take_a_look{
+    padding: 40px 30px;
+}
+.take_a_look h2{
+    font-size: 40px;
+    text-align: center;
+}
+.card{
+    width: 300px;
+    height: 240px;
+    border: 1px solid gray;
+    text-align: center;
+    padding:20px 20px 60px;
+    box-shadow:3px 3px 38px gray;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background: linear-gradient( rgba(91, 255, 2, 0.559),rgba(255, 99, 2, 0.8));
+    margin-top: 40px;
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+}
+
+.card_wrapper{
+    padding:40px 0px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card p{
+    font-size: 14px;
+    color: #000;
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+}
+.card a{
+    color: rgb(58, 12, 241);
+    text-decoration: none;
+    transition: 0.5s all ease
+}
+.gym_icon{
+    width: 70px;
+}
+.card:hover{
+    margin-top: 0px;
+    height: 280px;
+    border: 1px solid rgb(110, 4, 249);
+   }
+.card:hover p {
+   color: #fff;
+   }
+.card:hover a{
+color: rgb(255, 0, 0);
 }
